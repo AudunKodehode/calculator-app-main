@@ -14,6 +14,71 @@ export default function Calculator() {
     setScreenValue(eval(handleX + screenValue));
     setSecondaryScreenValue("");
   }
+  document.addEventListener("DOMContentLoaded", () => {
+    addKeyBinds();
+  });
+  function addKeyBinds() {
+    document.addEventListener("keydown", (e) => {
+      if (e.key == "Enter") {
+        e.preventDefault();
+        document.getElementById("keyequal").click();
+      }
+      if (e.key == "Delete") {
+        document.getElementById("keydel").click();
+      }
+      if (e.key == "Backspace") {
+        document.getElementById("keydel").click();
+      }
+      if (e.key == "0") {
+        document.getElementById("key0").click();
+      }
+      if (e.key == "1") {
+        document.getElementById("key1").click();
+      }
+      if (e.key == "2") {
+        document.getElementById("key2").click();
+      }
+      if (e.key == "3") {
+        document.getElementById("key3").click();
+      }
+      if (e.key == "4") {
+        document.getElementById("key4").click();
+      }
+      if (e.key == "5") {
+        document.getElementById("key5").click();
+      }
+      if (e.key == "6") {
+        document.getElementById("key6").click();
+      }
+      if (e.key == "7") {
+        document.getElementById("key7").click();
+      }
+      if (e.key == "8") {
+        document.getElementById("key8").click();
+      }
+      if (e.key == "9") {
+        document.getElementById("key9").click();
+      }
+      if (e.key == ",") {
+        document.getElementById("keydot").click();
+      }
+      if (e.key == "1") {
+        document.getElementById("key1").click();
+      }
+      if (e.key == "+") {
+        document.getElementById("keyadd").click();
+      }
+      if (e.key == "-") {
+        document.getElementById("keysub").click();
+      }
+      if (e.key == "*") {
+        document.getElementById("keymul").click();
+      }
+      if (e.key == "/") {
+        document.getElementById("keydiv").click();
+      }
+    });
+  }
   function handleKey(key) {
     switch (key) {
       case "equ":
