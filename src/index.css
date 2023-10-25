@@ -1,6 +1,11 @@
 #root {
   background: var(--mainbg);
 }
+.fem{
+    position: fixed;
+    bottom: 0;
+    font-size: 20px;
+}
 .calculatorContainer {
   background: var(--mainbg);
   width: 350px;
