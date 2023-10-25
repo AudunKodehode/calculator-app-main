@@ -1,0 +1,18 @@
+:root {
+  --mainbg: hsl(0, 0%, 90%);
+  --togglebg: hsl(0, 5%, 81%);
+  --screenbg: hsl(0, 0%, 93%);
+
+  --keybg: hsl(185, 42%, 37%);
+  --keyshadow: hsl(185, 58%, 25%);
+
+  --keybg2: hsl(25, 98%, 40%);
+  --keyshadow2: hsl(25, 99%, 27%);
+
+  --keybg3: hsl(45, 7%, 89%);
+  --keyshadow3: hsl(35, 11%, 61%);
+
+  --text1: hsl(60, 10%, 19%);
+  --text2: hsl(0, 0%, 100%);
+  --alt2: white;
+}
