@@ -249,7 +249,7 @@ export default function Calculator() {
       </div>
 
       <style jsx>{`
-        @import url("/${themeState}.css");
+        @import url("/public/${themeState}.css");
       `}</style>
     </div>
   );
