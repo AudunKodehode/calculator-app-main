@@ -5,6 +5,7 @@ export default function App() {
 
   return (
     <>
+    <h1>Calc</h1>
     </>
   )
 }
