@@ -3,7 +3,7 @@ import Screen from "./Screen";
 import { useState } from "react";
 import Key from "./Key";
 export default function Calculator() {
-  const [themeState, setThemeState] = useState("dark"); // dark light alternative
+  const [themeState, setThemeState] = useState("dark");
   const [screenValue, setScreenValue] = useState("");
   const [secondaryScreenValue, setSecondaryScreenValue] = useState("");
   function calculate() {
@@ -60,6 +60,7 @@ export default function Calculator() {
       <div className="calculator">
         <div className="topPart">
           <h1>calc</h1>
+          <h5>THEME</h5>
           <ThemeSwitcher
             themeState={themeState}
             setThemeState={setThemeState}
